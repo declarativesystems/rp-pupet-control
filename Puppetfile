@@ -7,7 +7,7 @@ mod 'hieradata',
 mod 'r_role',
   :git =>'https://github.com/declarativesystems/r_role'
 
-mod 'geoffwilliams-r_profile', '0.10.3'
+mod 'geoffwilliams-r_profile', '0.11.0'
 
 # dependences for geoffwilliams-r_profile
 mod 'puppetlabs-stdlib', :latest
@@ -29,3 +29,5 @@ mod 'declarativesystems-puppet_vagrant', '0.1.0'
 mod 'saz-vim', '2.5.0'
 mod 'saz-sudo', '4.1.0'
 mod 'puppetlabs-puppetserver_gem', '0.2.0'
+mod 'puppet-virtualbox', '1.8.0'
+mod 'stahnma-epel', '1.2.2'
