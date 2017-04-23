@@ -35,3 +35,6 @@ mod 'saz-sudo', '4.1.0'
 mod 'puppetlabs-puppetserver_gem', '0.2.0'
 mod 'puppet-virtualbox', '1.8.0'
 mod 'stahnma-epel', '1.2.2'
+
+# puppet monitorning and debugging
+mod 'geoffwilliams-lastrun_face', '0.3.0'
