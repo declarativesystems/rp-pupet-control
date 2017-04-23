@@ -26,7 +26,12 @@ mod 'geoffwilliams-resolv_conf', '0.1.6'
 mod 'geoffwilliams-name_service_switch', '0.1.0'
 mod 'saz-limits', '2.5.0'
 mod 'geoffwilliams-timezone', '0.1.1'
-mod 'declarativesystems-puppet_vagrant', '0.4.1'
+
+mod 'puppet_vagrant',
+  :git => 'https://github.com/declarativesystems/puppet_vagrant',
+  :ref => 'v0.4.2'
+
+
 # mod 'saz-vim', '2.5.0' https://github.com/saz/puppet-vim/issues/13
 mod 'vim',
   :git => 'https://github.com/GeoffWilliams/puppet-vim',
