@@ -57,3 +57,7 @@ mod 'stahnma-epel', '1.2.2'
 
 # puppet monitorning and debugging
 mod 'geoffwilliams-lastrun_face', '0.3.0'
+
+# https://tickets.puppetlabs.com/browse/MODULES-4760 means this is missing from metadata.json
+mod 'tomcat',
+  :git => "https://github.com/puppetlabs/puppetlabs-tomcat"
