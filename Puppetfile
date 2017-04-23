@@ -43,6 +43,7 @@ mod 'jamtur01-httpauth', '0.0.3'
 mod 'puppet-nginx', '0.6.0'
 mod 'puppetlabs-apache', '1.11.0'
 mod 'puppetlabs-vcsrepo', '1.5.0'
+mod 'puppetlabs-concat', '3.0.0'
 
 mod 'puppet_vagrant',
   :git => 'https://github.com/declarativesystems/puppet_vagrant',
