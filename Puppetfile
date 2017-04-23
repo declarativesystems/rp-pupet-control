@@ -8,7 +8,9 @@ mod 'r_role',
   :git => 'https://github.com/declarativesystems/r_role',
   :ref => 'v0.3.0'
 
-mod 'geoffwilliams-r_profile', '1.1.4'
+mod 'r_profile',
+  :git => 'https://github.com/declarativesystems/r_profile',
+  :ref =>'v1.1.4'
 
 # dependences for geoffwilliams-r_profile
 mod 'puppetlabs-stdlib', '4.16.0'
