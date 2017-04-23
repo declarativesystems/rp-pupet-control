@@ -29,7 +29,7 @@ mod 'geoffwilliams-timezone', '0.1.1'
 
 mod 'puppet_vagrant',
   :git => 'https://github.com/declarativesystems/puppet_vagrant',
-  :ref => 'v0.4.4'
+  :ref => 'v0.4.5'
 
 
 # mod 'saz-vim', '2.5.0' https://github.com/saz/puppet-vim/issues/13
