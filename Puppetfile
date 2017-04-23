@@ -5,9 +5,10 @@ mod 'hieradata',
 
 
 mod 'r_role',
-  :git =>'https://github.com/declarativesystems/r_role'
+  :git => 'https://github.com/declarativesystems/r_role',
+  :ref => 'v0.3.0'
 
-mod 'geoffwilliams-r_profile', '0.12.1'
+mod 'geoffwilliams-r_profile', '1.0.0'
 
 # dependences for geoffwilliams-r_profile
 mod 'puppetlabs-stdlib', :latest
