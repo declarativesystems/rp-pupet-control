@@ -8,7 +8,7 @@ mod 'r_role',
   :git => 'https://github.com/declarativesystems/r_role',
   :ref => 'v0.3.0'
 
-mod 'geoffwilliams-r_profile', '1.1.1'
+mod 'geoffwilliams-r_profile', '1.1.2'
 
 # dependences for geoffwilliams-r_profile
 mod 'puppetlabs-stdlib', :latest
@@ -26,7 +26,7 @@ mod 'geoffwilliams-resolv_conf', '0.1.6'
 mod 'geoffwilliams-name_service_switch', '0.1.0'
 mod 'saz-limits', '2.5.0'
 mod 'geoffwilliams-timezone', '0.1.1'
-mod 'declarativesystems-puppet_vagrant', '0.1.0'
+mod 'declarativesystems-puppet_vagrant', '0.4.1'
 # mod 'saz-vim', '2.5.0' https://github.com/saz/puppet-vim/issues/13
 mod 'vim',
   :git => 'https://github.com/GeoffWilliams/puppet-vim',
